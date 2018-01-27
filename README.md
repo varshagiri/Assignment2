@@ -208,6 +208,6 @@ So lets try just two last commands. If you need help, you can check out regex101
 
 **echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | pymatch.py. -r "gene_name=(.*?);"**
 
-**echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | pymatch.py. -r "gene_name=(.?);gene_sequence=(.?);"**
+**echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | pymatch.py. -r "gene_name=(.*?);gene_sequence=(.*?);"**
  
 Pages: 1 2 3 4 5 6 7 8
