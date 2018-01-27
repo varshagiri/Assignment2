@@ -17,7 +17,7 @@ We then replace the answer with "**" before and after "**". How many?  Two aster
 ## 1. Logging in
 Please login to trgn510.pmed.io and verify that you are in trgn510.pmed.io using hostname.
 
-**cd ~; ls -R**
+**hostname**
 ## 2. PATHs and organization.
 There are lots of environmental variables loaded into bash through .bashrc.  One is the $PATH variable.  Any executables within these folders do not require typing a path to run.  For example below we see all the paths where our executables without a path can be located.  In a step below we extend it.
 
@@ -37,7 +37,7 @@ cd ~
 mkdir -p bin projects/assign2
 export PATH=$PATH:~/bin
 cd projects/assign2
-**last | head -5**
+**cd ~; ls -R*
 
 ## 3. Shared infrastructure
 who
@@ -54,7 +54,7 @@ Ok - that's too many people who have logged on, lets just pipe it to tail to see
 last | tail
 What if we wanted the first 5 lines - there must be a way to take the head of a file, such as the first 5 lines.
 
-*Place a unix command(s) of first 5 people who logged onto this server using "last'
+**last | head -5**
 
 ## 4.  Our network
 I wonder if this server can see the internet.  Can it see google. Lets ping Google with a little message and see how long it takes to respond.
